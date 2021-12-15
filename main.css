@@ -1,0 +1,36 @@
+body{
+    margin:0px;
+    overflow: hidden;
+}
+.ball{
+    display: block;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background-color: red;
+    position:absolute;
+    z-index: 1;
+}
+
+.bar{
+    width: 15vw;
+    height: 3vh;
+    color:white;
+    font-weight:bolder ;
+    text-align: center;
+    border-radius: 10px;
+    position: absolute;
+    display: block;
+}
+#bar-up{
+    position: absolute;
+    top: 0px;
+    background-color: blue;
+    z-index: 1;
+}
+#bar-bottom{
+    position: absolute;
+    bottom: 0px;
+    background-color: purple;
+    z-index: 1;
+}
